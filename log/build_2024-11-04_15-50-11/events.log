@@ -1,0 +1,94 @@
+[0.000000] (-) TimerEvent: {}
+[0.000123] (tugas3) JobQueued: {'identifier': 'tugas3', 'dependencies': OrderedDict()}
+[0.000442] (tugas3) JobStarted: {'identifier': 'tugas3'}
+[0.007310] (tugas3) JobProgress: {'identifier': 'tugas3', 'progress': 'cmake'}
+[0.007909] (tugas3) JobProgress: {'identifier': 'tugas3', 'progress': 'build'}
+[0.008683] (tugas3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/farelfebryan/workspace/build/tugas3', '--', '-j8', '-l8'], 'cwd': '/home/farelfebryan/workspace/build/tugas3', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'farelfebryan'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/farelfebryan'), ('OLDPWD', '/home/farelfebryan'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1444'), ('SYSTEMD_EXEC_PID', '1617'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2368'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/farelfebryan/workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'farelfebryan'), ('JOURNAL_STREAM', '8:10179'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'farelfebryan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/farelfebryan-ZenBook-UX481FL-UX481FL:@/tmp/.ICE-unix/1589,unix/farelfebryan-ZenBook-UX481FL-UX481FL:/tmp/.ICE-unix/1589'), ('INVOCATION_ID', '1cc977552f5d488292d884365cf744f9'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Y9UYW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/farelfebryan/workspace/install/tugas3:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8c3a06c3-2553-4c58-9b49-30fbc47b937a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/farelfebryan/workspace/build/tugas3'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/farelfebryan/workspace/install/tugas3:/opt/ros/humble')]), 'shell': False}
+[0.046604] (tugas3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gambar_mobil\x1b[0m\n'}
+[0.063656] (tugas3) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gambar_mobil.dir/src/gambarMobil.cpp.o\x1b[0m\n'}
+[0.099770] (-) TimerEvent: {}
+[0.200055] (-) TimerEvent: {}
+[0.300338] (-) TimerEvent: {}
+[0.400623] (-) TimerEvent: {}
+[0.500911] (-) TimerEvent: {}
+[0.601170] (-) TimerEvent: {}
+[0.701457] (-) TimerEvent: {}
+[0.801764] (-) TimerEvent: {}
+[0.902054] (-) TimerEvent: {}
+[1.002333] (-) TimerEvent: {}
+[1.102627] (-) TimerEvent: {}
+[1.202919] (-) TimerEvent: {}
+[1.303187] (-) TimerEvent: {}
+[1.403447] (-) TimerEvent: {}
+[1.503741] (-) TimerEvent: {}
+[1.604036] (-) TimerEvent: {}
+[1.704328] (-) TimerEvent: {}
+[1.804623] (-) TimerEvent: {}
+[1.904917] (-) TimerEvent: {}
+[2.005247] (-) TimerEvent: {}
+[2.105560] (-) TimerEvent: {}
+[2.205881] (-) TimerEvent: {}
+[2.306150] (-) TimerEvent: {}
+[2.406444] (-) TimerEvent: {}
+[2.506734] (-) TimerEvent: {}
+[2.607029] (-) TimerEvent: {}
+[2.707318] (-) TimerEvent: {}
+[2.807608] (-) TimerEvent: {}
+[2.907890] (-) TimerEvent: {}
+[3.008189] (-) TimerEvent: {}
+[3.108479] (-) TimerEvent: {}
+[3.208773] (-) TimerEvent: {}
+[3.309053] (-) TimerEvent: {}
+[3.409395] (-) TimerEvent: {}
+[3.509684] (-) TimerEvent: {}
+[3.610025] (-) TimerEvent: {}
+[3.710327] (-) TimerEvent: {}
+[3.810654] (-) TimerEvent: {}
+[3.910971] (-) TimerEvent: {}
+[4.011226] (-) TimerEvent: {}
+[4.111504] (-) TimerEvent: {}
+[4.211786] (-) TimerEvent: {}
+[4.312060] (-) TimerEvent: {}
+[4.412347] (-) TimerEvent: {}
+[4.512637] (-) TimerEvent: {}
+[4.612954] (-) TimerEvent: {}
+[4.713284] (-) TimerEvent: {}
+[4.813652] (-) TimerEvent: {}
+[4.913950] (-) TimerEvent: {}
+[5.014241] (-) TimerEvent: {}
+[5.114523] (-) TimerEvent: {}
+[5.214800] (-) TimerEvent: {}
+[5.315076] (-) TimerEvent: {}
+[5.415361] (-) TimerEvent: {}
+[5.515645] (-) TimerEvent: {}
+[5.615925] (-) TimerEvent: {}
+[5.716267] (-) TimerEvent: {}
+[5.772987] (tugas3) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable gambar_mobil\x1b[0m\n'}
+[5.816409] (-) TimerEvent: {}
+[5.916703] (-) TimerEvent: {}
+[6.016859] (tugas3) StdoutLine: {'line': b'[100%] Built target gambar_mobil\n'}
+[6.017036] (-) TimerEvent: {}
+[6.026122] (tugas3) CommandEnded: {'returncode': 0}
+[6.046916] (tugas3) JobProgress: {'identifier': 'tugas3', 'progress': 'install'}
+[6.055158] (tugas3) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/farelfebryan/workspace/build/tugas3'], 'cwd': '/home/farelfebryan/workspace/build/tugas3', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'farelfebryan'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/farelfebryan'), ('OLDPWD', '/home/farelfebryan'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1444'), ('SYSTEMD_EXEC_PID', '1617'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2368'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/farelfebryan/workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'farelfebryan'), ('JOURNAL_STREAM', '8:10179'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'farelfebryan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/farelfebryan-ZenBook-UX481FL-UX481FL:@/tmp/.ICE-unix/1589,unix/farelfebryan-ZenBook-UX481FL-UX481FL:/tmp/.ICE-unix/1589'), ('INVOCATION_ID', '1cc977552f5d488292d884365cf744f9'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Y9UYW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/farelfebryan/workspace/install/tugas3:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8c3a06c3-2553-4c58-9b49-30fbc47b937a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/farelfebryan/workspace/build/tugas3'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/farelfebryan/workspace/install/tugas3:/opt/ros/humble')]), 'shell': False}
+[6.062764] (tugas3) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.062996] (tugas3) StdoutLine: {'line': b'-- Installing: /home/farelfebryan/workspace/install/tugas3/lib/tugas3/gambar_mobil\n'}
+[6.065104] (tugas3) StdoutLine: {'line': b'-- Set runtime path of "/home/farelfebryan/workspace/install/tugas3/lib/tugas3/gambar_mobil" to ""\n'}
+[6.065365] (tugas3) StdoutLine: {'line': b'-- Up-to-date: /home/farelfebryan/workspace/install/tugas3/share/ament_index/resource_index/package_run_dependencies/tugas3\n'}
+[6.065600] (tugas3) StdoutLine: {'line': b'-- Up-to-date: /home/farelfebryan/workspace/install/tugas3/share/ament_index/resource_index/parent_prefix_path/tugas3\n'}
+[6.065679] (tugas3) StdoutLine: {'line': b'-- Up-to-date: /home/farelfebryan/workspace/install/tugas3/share/tugas3/environment/ament_prefix_path.sh\n'}
+[6.065764] (tugas3) StdoutLine: {'line': b'-- Up-to-date: /home/farelfebryan/workspace/install/tugas3/share/tugas3/environment/ament_prefix_path.dsv\n'}
+[6.065843] (tugas3) StdoutLine: {'line': b'-- Up-to-date: /home/farelfebryan/workspace/install/tugas3/share/tugas3/environment/path.sh\n'}
+[6.065915] (tugas3) StdoutLine: {'line': b'-- Up-to-date: /home/farelfebryan/workspace/install/tugas3/share/tugas3/environment/path.dsv\n'}
+[6.066042] (tugas3) StdoutLine: {'line': b'-- Up-to-date: /home/farelfebryan/workspace/install/tugas3/share/tugas3/local_setup.bash\n'}
+[6.066110] (tugas3) StdoutLine: {'line': b'-- Up-to-date: /home/farelfebryan/workspace/install/tugas3/share/tugas3/local_setup.sh\n'}
+[6.066175] (tugas3) StdoutLine: {'line': b'-- Up-to-date: /home/farelfebryan/workspace/install/tugas3/share/tugas3/local_setup.zsh\n'}
+[6.066239] (tugas3) StdoutLine: {'line': b'-- Up-to-date: /home/farelfebryan/workspace/install/tugas3/share/tugas3/local_setup.dsv\n'}
+[6.066302] (tugas3) StdoutLine: {'line': b'-- Installing: /home/farelfebryan/workspace/install/tugas3/share/tugas3/package.dsv\n'}
+[6.066365] (tugas3) StdoutLine: {'line': b'-- Up-to-date: /home/farelfebryan/workspace/install/tugas3/share/ament_index/resource_index/packages/tugas3\n'}
+[6.066429] (tugas3) StdoutLine: {'line': b'-- Up-to-date: /home/farelfebryan/workspace/install/tugas3/share/tugas3/cmake/tugas3Config.cmake\n'}
+[6.066493] (tugas3) StdoutLine: {'line': b'-- Up-to-date: /home/farelfebryan/workspace/install/tugas3/share/tugas3/cmake/tugas3Config-version.cmake\n'}
+[6.066556] (tugas3) StdoutLine: {'line': b'-- Up-to-date: /home/farelfebryan/workspace/install/tugas3/share/tugas3/package.xml\n'}
+[6.067446] (tugas3) CommandEnded: {'returncode': 0}
+[6.105907] (tugas3) JobEnded: {'identifier': 'tugas3', 'rc': 0}
+[6.106675] (-) EventReactorShutdown: {}

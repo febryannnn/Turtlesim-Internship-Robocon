@@ -1,0 +1,10 @@
+/home/farelfebryan/workspace/build/tugas3/CMakeFiles/uninstall.dir
+/home/farelfebryan/workspace/build/tugas3/CMakeFiles/tugas3_uninstall.dir
+/home/farelfebryan/workspace/build/tugas3/CMakeFiles/gambar_mobil.dir
+/home/farelfebryan/workspace/build/tugas3/CMakeFiles/test.dir
+/home/farelfebryan/workspace/build/tugas3/CMakeFiles/edit_cache.dir
+/home/farelfebryan/workspace/build/tugas3/CMakeFiles/rebuild_cache.dir
+/home/farelfebryan/workspace/build/tugas3/CMakeFiles/list_install_components.dir
+/home/farelfebryan/workspace/build/tugas3/CMakeFiles/install.dir
+/home/farelfebryan/workspace/build/tugas3/CMakeFiles/install/local.dir
+/home/farelfebryan/workspace/build/tugas3/CMakeFiles/install/strip.dir

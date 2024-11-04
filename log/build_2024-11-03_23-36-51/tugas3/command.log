@@ -1,0 +1,2 @@
+Invoking command in '/home/farelfebryan/workspace/build/tugas3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/workspace/build/tugas3 -- -j8 -l8
+Invoked command in '/home/farelfebryan/workspace/build/tugas3' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/workspace/build/tugas3 -- -j8 -l8

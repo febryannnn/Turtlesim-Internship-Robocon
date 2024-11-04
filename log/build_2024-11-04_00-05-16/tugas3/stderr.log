@@ -1,0 +1,45 @@
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:[m[K In constructor ‘[01m[KVerticalLinear::VerticalLinear()[m[K’:
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:18:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kths[m[K’ was not declared in this scope; did you mean ‘[01m[Kthis[m[K’?
+   18 |     spawnTurtle = [01;31m[Kths[m[K->create_client<turtlesim::srv::Spawn>("/spawn");
+      |                   [01;31m[K^~~[m[K
+      |                   [32m[Kthis[m[K
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:18:59:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   18 |     spawnTurtle = ths->create_client<turtlesim::srv::Spawn[01;31m[K>[m[K("/spawn");
+      |                                                           [01;31m[K^[m[K
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:[m[K In member function ‘[01m[Kvoid VerticalLinear::kill_turtle(const string&)[m[K’:
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:47:63:[m[K [01;31m[Kerror: [m[K‘[01m[KRequets[m[K’ is not a member of ‘[01m[Kturtlesim::srv::Kill[m[K’
+   47 |         auto request = std::make_shared<turtlesim::srv::Kill::[01;31m[KRequets[m[K>();
+      |                                                               [01;31m[K^~~~~~~[m[K
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:47:71:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   47 |         auto request = [01;31m[Kstd::make_shared<turtlesim::srv::Kill::Requets>()[m[K;
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:47:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   47 |         auto request = [01;31m[Kstd::make_shared<turtlesim::srv::Kill::Requets>()[m[K;
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:50:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kkill_client_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_client_t[m[K’?
+   50 |         auto future = [01;31m[Kkill_client_[m[K->async_send_request(request);
+      |                       [01;31m[K^~~~~~~~~~~~[m[K
+      |                       [32m[Krcl_client_t[m[K
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:[m[K In member function ‘[01m[Kvoid VerticalLinear::spawn_turtle(float, float, float, const string&)[m[K’:
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:70:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kspawn_client_[m[K’ was not declared in this scope
+   70 |         auto future = [01;31m[Kspawn_client_[m[K->async_send_request(request);
+      |                       [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:[m[K In member function ‘[01m[Kvoid VerticalLinear::Car()[m[K’:
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:108:32:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst char [8][m[K’ to ‘[01m[Kfloat[m[K’
+  108 |         spawn_turtle(4.5, 5.5, [01;31m[K"turtle2"[m[K);
+      |                                [01;31m[K^~~~~~~~~[m[K
+      |                                [01;31m[K|[m[K
+      |                                [01;31m[Kconst char [8][m[K
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:62:47:[m[K [01;36m[Knote: [m[K  initializing argument 3 of ‘[01m[Kvoid VerticalLinear::spawn_turtle(float, float, float, const string&)[m[K’
+   62 |     void spawn_turtle(float x, float y, [01;36m[Kfloat theta[m[K, const std::string &name = "")
+      |                                         [01;36m[K~~~~~~^~~~~[m[K
+gmake[2]: *** [CMakeFiles/turtle_draw.dir/build.make:76: CMakeFiles/turtle_draw.dir/src/turtle_draw.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_draw.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

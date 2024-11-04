@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target turtle_draw[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/turtle_draw.dir/src/turtle_draw.cpp.o[0m
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:[m[K In member function ‘[01m[Kvoid VerticalLinear::circle(double)[m[K’:
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:35:20:[m[K [01;31m[Kerror: [m[K‘[01m[Klinear_speed[m[K’ was not declared in this scope; did you mean ‘[01m[Kmuter_speed[m[K’?
+   35 |         moveTurtle([01;31m[Klinear_speed[m[K,angular_speed, durasi);
+      |                    [01;31m[K^~~~~~~~~~~~[m[K
+      |                    [32m[Kmuter_speed[m[K
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:35:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kangular_speed[m[K’ was not declared in this scope; did you mean ‘[01m[Kmuter_speed[m[K’?
+   35 |         moveTurtle(linear_speed,[01;31m[Kangular_speed[m[K, durasi);
+      |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                 [32m[Kmuter_speed[m[K
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:33:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmuter_speed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   33 |         double [01;35m[Kmuter_speed[m[K = lurus_speed / radius;
+      |                [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:47:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class VerticalLinear[m[K’ {aka ‘[01m[Kclass VerticalLinear[m[K’} has no member named ‘[01m[Kgambar[m[K’
+   47 |     node -> [01;31m[Kgambar[m[K(5.0);
+      |             [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/turtle_draw.dir/build.make:76: CMakeFiles/turtle_draw.dir/src/turtle_draw.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_draw.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

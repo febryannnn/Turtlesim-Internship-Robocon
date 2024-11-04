@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.000358] (tugas3) JobQueued: {'identifier': 'tugas3', 'dependencies': OrderedDict()}
+[0.000402] (tugas3) JobStarted: {'identifier': 'tugas3'}
+[0.007049] (tugas3) JobProgress: {'identifier': 'tugas3', 'progress': 'cmake'}
+[0.008357] (tugas3) JobProgress: {'identifier': 'tugas3', 'progress': 'build'}
+[0.008431] (tugas3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/farelfebryan/workspace/build/tugas3', '--', '-j8', '-l8'], 'cwd': '/home/farelfebryan/workspace/build/tugas3', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'farelfebryan'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/farelfebryan'), ('OLDPWD', '/home/farelfebryan'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1457'), ('SYSTEMD_EXEC_PID', '1638'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3801'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/farelfebryan/workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'farelfebryan'), ('JOURNAL_STREAM', '8:10784'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'farelfebryan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/farelfebryan-ZenBook-UX481FL-UX481FL:@/tmp/.ICE-unix/1614,unix/farelfebryan-ZenBook-UX481FL-UX481FL:/tmp/.ICE-unix/1614'), ('INVOCATION_ID', 'a058d4eb28794c9fa991a1a51b08f763'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9V7FW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/farelfebryan/workspace/install/tugas3:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:6689f364-ce24-443a-9ce4-2eca69257aa5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/farelfebryan/workspace/build/tugas3'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/farelfebryan/workspace/install/tugas3:/opt/ros/humble')]), 'shell': False}
+[0.046726] (tugas3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_draw\x1b[0m\n'}
+[0.062175] (tugas3) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_draw.dir/src/turtle_draw.cpp.o\x1b[0m\n'}
+[0.098879] (-) TimerEvent: {}
+[0.199183] (-) TimerEvent: {}
+[0.299505] (-) TimerEvent: {}
+[0.399857] (-) TimerEvent: {}
+[0.500157] (-) TimerEvent: {}
+[0.600490] (-) TimerEvent: {}
+[0.700777] (-) TimerEvent: {}
+[0.801064] (-) TimerEvent: {}
+[0.901353] (-) TimerEvent: {}
+[1.001624] (-) TimerEvent: {}
+[1.101912] (-) TimerEvent: {}
+[1.202200] (-) TimerEvent: {}
+[1.302662] (-) TimerEvent: {}
+[1.402958] (-) TimerEvent: {}
+[1.503254] (-) TimerEvent: {}
+[1.603692] (-) TimerEvent: {}
+[1.703983] (-) TimerEvent: {}
+[1.804274] (-) TimerEvent: {}
+[1.904500] (-) TimerEvent: {}
+[2.004756] (-) TimerEvent: {}
+[2.105052] (-) TimerEvent: {}
+[2.205332] (-) TimerEvent: {}
+[2.305603] (-) TimerEvent: {}
+[2.405857] (-) TimerEvent: {}
+[2.506136] (-) TimerEvent: {}
+[2.523807] (tugas3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.523991] (tugas3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.524062] (tugas3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.524123] (tugas3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.524181] (tugas3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.524238] (tugas3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.524294] (tugas3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.524350] (tugas3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.524406] (tugas3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.524475] (tugas3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.524536] (tugas3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:1\x1b[m\x1b[K:\n'}
+[2.524593] (tugas3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KVerticalLinear::VerticalLinear()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.524658] (tugas3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:21:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kdo\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.524717] (tugas3) StderrLine: {'line': b'   21 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Gerak vertical mulai!!!");\n'}
+[2.524773] (tugas3) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.606264] (-) TimerEvent: {}
+[2.706549] (-) TimerEvent: {}
+[2.806826] (-) TimerEvent: {}
+[2.907122] (-) TimerEvent: {}
+[3.007412] (-) TimerEvent: {}
+[3.107674] (-) TimerEvent: {}
+[3.207969] (-) TimerEvent: {}
+[3.308266] (-) TimerEvent: {}
+[3.408580] (-) TimerEvent: {}
+[3.508911] (-) TimerEvent: {}
+[3.609236] (-) TimerEvent: {}
+[3.709530] (-) TimerEvent: {}
+[3.809820] (-) TimerEvent: {}
+[3.910101] (-) TimerEvent: {}
+[4.010425] (-) TimerEvent: {}
+[4.110766] (-) TimerEvent: {}
+[4.211129] (-) TimerEvent: {}
+[4.311496] (-) TimerEvent: {}
+[4.328407] (tugas3) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtle_draw.dir/build.make:76: CMakeFiles/turtle_draw.dir/src/turtle_draw.cpp.o] Error 1\n'}
+[4.328684] (tugas3) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_draw.dir/all] Error 2\n'}
+[4.328874] (tugas3) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.330581] (tugas3) CommandEnded: {'returncode': 2}
+[4.362055] (tugas3) JobEnded: {'identifier': 'tugas3', 'rc': 2}
+[4.372732] (-) EventReactorShutdown: {}

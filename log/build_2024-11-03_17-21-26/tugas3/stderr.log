@@ -1,0 +1,17 @@
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:[m[K In member function ‘[01m[Kvoid VerticalLinear::Car()[m[K’:
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:64:30:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before numeric constant
+   64 |         moveTurtle(-2.0, 0.0 [01;31m[K0.0[m[K, 1.0);
+      |                              [01;31m[K^~~[m[K
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:64:19:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   64 |         moveTurtle[01;36m[K([m[K-2.0, 0.0 0.0, 1.0);
+      |                   [01;36m[K^[m[K
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:64:19:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KVerticalLinear::moveTurtle(double, double, double)[m[K’
+   64 |         [01;31m[KmoveTurtle(-2.0, 0.0 0.0, 1.0)[m[K;
+      |         [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:20:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid VerticalLinear::moveTurtle(double, double, double, double)[m[K’
+   20 |     void [01;36m[KmoveTurtle[m[K(double horizontal, double vertical, double degree, double durasi) {
+      |          [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:20:10:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+gmake[2]: *** [CMakeFiles/turtle_draw.dir/build.make:76: CMakeFiles/turtle_draw.dir/src/turtle_draw.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_draw.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

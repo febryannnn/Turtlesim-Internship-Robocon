@@ -1,0 +1,10 @@
+[0.010s] Invoking command in '/home/farelfebryan/workspace/build/tugas3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/workspace/build/tugas3 -- -j8 -l8
+[0.057s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_draw.dir/src/turtle_draw.cpp.o[0m
+[0.263s] [01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kturtlesim/srv/kill.hpp: No such file or directory
+[0.263s]     3 | #include [01;31m[K<turtlesim/srv/kill.hpp>[m[K
+[0.263s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.263s] compilation terminated.
+[0.268s] gmake[2]: *** [CMakeFiles/turtle_draw.dir/build.make:76: CMakeFiles/turtle_draw.dir/src/turtle_draw.cpp.o] Error 1
+[0.268s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_draw.dir/all] Error 2
+[0.268s] gmake: *** [Makefile:146: all] Error 2
+[0.271s] Invoked command in '/home/farelfebryan/workspace/build/tugas3' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/workspace/build/tugas3 -- -j8 -l8

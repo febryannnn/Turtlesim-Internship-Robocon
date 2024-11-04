@@ -1,0 +1,126 @@
+[0.000000] (-) TimerEvent: {}
+[0.000308] (tugas3) JobQueued: {'identifier': 'tugas3', 'dependencies': OrderedDict()}
+[0.000345] (tugas3) JobStarted: {'identifier': 'tugas3'}
+[0.007042] (tugas3) JobProgress: {'identifier': 'tugas3', 'progress': 'cmake'}
+[0.007640] (tugas3) JobProgress: {'identifier': 'tugas3', 'progress': 'build'}
+[0.008418] (tugas3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/farelfebryan/workspace/build/tugas3', '--', '-j8', '-l8'], 'cwd': '/home/farelfebryan/workspace/build/tugas3', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'farelfebryan'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/farelfebryan'), ('OLDPWD', '/home/farelfebryan'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1457'), ('SYSTEMD_EXEC_PID', '1638'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3801'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/farelfebryan/workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'farelfebryan'), ('JOURNAL_STREAM', '8:10784'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'farelfebryan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/farelfebryan-ZenBook-UX481FL-UX481FL:@/tmp/.ICE-unix/1614,unix/farelfebryan-ZenBook-UX481FL-UX481FL:/tmp/.ICE-unix/1614'), ('INVOCATION_ID', 'a058d4eb28794c9fa991a1a51b08f763'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9V7FW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/farelfebryan/workspace/install/tugas3:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:6689f364-ce24-443a-9ce4-2eca69257aa5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/farelfebryan/workspace/build/tugas3'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/farelfebryan/workspace/install/tugas3:/opt/ros/humble')]), 'shell': False}
+[0.047423] (tugas3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_draw\x1b[0m\n'}
+[0.062854] (tugas3) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_draw.dir/src/turtle_draw.cpp.o\x1b[0m\n'}
+[0.099385] (-) TimerEvent: {}
+[0.199688] (-) TimerEvent: {}
+[0.299980] (-) TimerEvent: {}
+[0.400275] (-) TimerEvent: {}
+[0.500555] (-) TimerEvent: {}
+[0.600850] (-) TimerEvent: {}
+[0.701150] (-) TimerEvent: {}
+[0.801428] (-) TimerEvent: {}
+[0.901724] (-) TimerEvent: {}
+[1.002014] (-) TimerEvent: {}
+[1.102283] (-) TimerEvent: {}
+[1.202571] (-) TimerEvent: {}
+[1.302865] (-) TimerEvent: {}
+[1.403162] (-) TimerEvent: {}
+[1.503448] (-) TimerEvent: {}
+[1.603743] (-) TimerEvent: {}
+[1.704054] (-) TimerEvent: {}
+[1.804348] (-) TimerEvent: {}
+[1.904648] (-) TimerEvent: {}
+[2.004915] (-) TimerEvent: {}
+[2.105192] (-) TimerEvent: {}
+[2.205523] (-) TimerEvent: {}
+[2.305824] (-) TimerEvent: {}
+[2.406122] (-) TimerEvent: {}
+[2.437275] (tugas3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:131:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSetPen\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kturtlesim::srv\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.437470] (tugas3) StderrLine: {'line': b'  131 |     rclcpp::Client<turtlesim::srv::\x1b[01;31m\x1b[KSetPen\x1b[m\x1b[K>::SharedPtr setPen;\n'}
+[2.437545] (tugas3) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.437611] (tugas3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:131:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.437675] (tugas3) StderrLine: {'line': b'  131 |     rclcpp::Client<turtlesim::srv::SetPen\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr setPen;\n'}
+[2.437736] (tugas3) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.437797] (tugas3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:131:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[2.437893] (tugas3) StderrLine: {'line': b'  131 |     rclcpp::Client<turtlesim::srv::SetPen>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K setPen;\n'}
+[2.437992] (tugas3) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.438092] (tugas3) StderrLine: {'line': b'      |                                                      \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.438725] (tugas3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:131:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KsetPen\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.438839] (tugas3) StderrLine: {'line': b'  131 |     rclcpp::Client<turtlesim::srv::SetPen>::SharedPtr \x1b[01;31m\x1b[KsetPen\x1b[m\x1b[K;\n'}
+[2.438909] (tugas3) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.448718] (tugas3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KVerticalLinear::VerticalLinear()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.448887] (tugas3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:16:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KkillTurtle\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.448961] (tugas3) StderrLine: {'line': b'   16 |     \x1b[01;31m\x1b[KkillTurtle\x1b[m\x1b[K = this->create_client<turtlesim::srv::Kill>("/kill");\n'}
+[2.449026] (tugas3) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.449359] (tugas3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:16:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KKill\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kturtlesim::srv\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.449541] (tugas3) StderrLine: {'line': b'   16 |     killTurtle = this->create_client<turtlesim::srv::\x1b[01;31m\x1b[KKill\x1b[m\x1b[K>("/kill");\n'}
+[2.449615] (tugas3) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.449680] (tugas3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:16:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KVerticalLinear::create_client<<expression error> >(const char [6])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.449744] (tugas3) StderrLine: {'line': b'   16 |     killTurtle = \x1b[01;31m\x1b[Kthis->create_client<turtlesim::srv::Kill>("/kill")\x1b[m\x1b[K;\n'}
+[2.449804] (tugas3) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.449863] (tugas3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.449924] (tugas3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.449982] (tugas3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.450041] (tugas3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:1\x1b[m\x1b[K:\n'}
+[2.450100] (tugas3) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.450174] (tugas3) StderrLine: {'line': b'  252 |   \x1b[01;36m\x1b[Kcreate_client\x1b[m\x1b[K(\n'}
+[2.450235] (tugas3) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.450293] (tugas3) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.450362] (tugas3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:16:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.450422] (tugas3) StderrLine: {'line': b'   16 |     killTurtle = \x1b[01;31m\x1b[Kthis->create_client<turtlesim::srv::Kill>("/kill")\x1b[m\x1b[K;\n'}
+[2.450485] (tugas3) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.456254] (tugas3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:17:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KspawnTurtle\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.456405] (tugas3) StderrLine: {'line': b'   17 |     \x1b[01;31m\x1b[KspawnTurtle\x1b[m\x1b[K = this->create_client<turtlesim::srv::Spawn>("/spawn");\n'}
+[2.456474] (tugas3) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.456866] (tugas3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:17:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSpawn\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kturtlesim::srv\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.456964] (tugas3) StderrLine: {'line': b'   17 |     spawnTurtle = this->create_client<turtlesim::srv::\x1b[01;31m\x1b[KSpawn\x1b[m\x1b[K>("/spawn");\n'}
+[2.457030] (tugas3) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.457090] (tugas3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:17:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KVerticalLinear::create_client<<expression error> >(const char [7])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.457169] (tugas3) StderrLine: {'line': b'   17 |     spawnTurtle = \x1b[01;31m\x1b[Kthis->create_client<turtlesim::srv::Spawn>("/spawn")\x1b[m\x1b[K;\n'}
+[2.457230] (tugas3) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.457287] (tugas3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.457344] (tugas3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.457400] (tugas3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.457455] (tugas3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:1\x1b[m\x1b[K:\n'}
+[2.457511] (tugas3) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.457571] (tugas3) StderrLine: {'line': b'  252 |   \x1b[01;36m\x1b[Kcreate_client\x1b[m\x1b[K(\n'}
+[2.457626] (tugas3) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.457682] (tugas3) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.457739] (tugas3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:17:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.457795] (tugas3) StderrLine: {'line': b'   17 |     spawnTurtle = \x1b[01;31m\x1b[Kthis->create_client<turtlesim::srv::Spawn>("/spawn")\x1b[m\x1b[K;\n'}
+[2.457850] (tugas3) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.462872] (tugas3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid VerticalLinear::setpen(int, int, int, int, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.463199] (tugas3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:66:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSetPen\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kturtlesim::srv\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.463328] (tugas3) StderrLine: {'line': b'   66 |         auto request = std::make_shared<turtlesim::srv::\x1b[01;31m\x1b[KSetPen\x1b[m\x1b[K::Request>();\n'}
+[2.463432] (tugas3) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.463529] (tugas3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:66:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[2.463618] (tugas3) StderrLine: {'line': b'   66 |         auto request = std::\x1b[01;31m\x1b[Kmake_shared<turtlesim::srv::SetPen::Request>\x1b[m\x1b[K();\n'}
+[2.463702] (tugas3) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.463784] (tugas3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:66:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.463868] (tugas3) StderrLine: {'line': b'   66 |         auto request = \x1b[01;31m\x1b[Kstd::make_shared<turtlesim::srv::SetPen::Request>()\x1b[m\x1b[K;\n'}
+[2.463959] (tugas3) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.464043] (tugas3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[2.464138] (tugas3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[2.464238] (tugas3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:1\x1b[m\x1b[K:\n'}
+[2.464328] (tugas3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.464419] (tugas3) StderrLine: {'line': b'  875 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[2.464509] (tugas3) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.464598] (tugas3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.464695] (tugas3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:66:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.464801] (tugas3) StderrLine: {'line': b'   66 |         auto request = \x1b[01;31m\x1b[Kstd::make_shared<turtlesim::srv::SetPen::Request>()\x1b[m\x1b[K;\n'}
+[2.464890] (tugas3) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.467800] (tugas3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:73:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KsetPen\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksetpen\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.467944] (tugas3) StderrLine: {'line': b'   73 |         auto future = \x1b[01;31m\x1b[KsetPen\x1b[m\x1b[K-> async_send_request(request);\n'}
+[2.468057] (tugas3) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.468190] (tugas3) StderrLine: {'line': b'      |                       \x1b[32m\x1b[Ksetpen\x1b[m\x1b[K\n'}
+[2.506183] (-) TimerEvent: {}
+[2.606493] (-) TimerEvent: {}
+[2.706807] (-) TimerEvent: {}
+[2.807128] (-) TimerEvent: {}
+[2.907444] (-) TimerEvent: {}
+[3.007766] (-) TimerEvent: {}
+[3.108083] (-) TimerEvent: {}
+[3.208409] (-) TimerEvent: {}
+[3.308720] (-) TimerEvent: {}
+[3.409031] (-) TimerEvent: {}
+[3.426196] (tugas3) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtle_draw.dir/build.make:76: CMakeFiles/turtle_draw.dir/src/turtle_draw.cpp.o] Error 1\n'}
+[3.426419] (tugas3) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_draw.dir/all] Error 2\n'}
+[3.426653] (tugas3) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.428494] (tugas3) CommandEnded: {'returncode': 2}
+[3.458309] (tugas3) JobEnded: {'identifier': 'tugas3', 'rc': 2}
+[3.468874] (-) EventReactorShutdown: {}

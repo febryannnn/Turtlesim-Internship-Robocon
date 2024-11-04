@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target turtle_draw[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/turtle_draw.dir/src/turtle_draw.cpp.o[0m
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:[m[K In constructor ‘[01m[KVerticalLinear::VerticalLinear()[m[K’:
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:21:13:[m[K [01;31m[Kerror: [m[K‘[01m[KkillTurtle[m[K’ was not declared in this scope
+   21 |     while (![01;31m[KkillTurtle[m[K -> wait_for_service(1s)) {
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:25:13:[m[K [01;31m[Kerror: [m[K‘[01m[KspawnTurtle[m[K’ was not declared in this scope
+   25 |     while (![01;31m[KspawnTurtle[m[K -> wait_for_service(1s)) {
+      |             [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/turtle_draw.dir/build.make:76: CMakeFiles/turtle_draw.dir/src/turtle_draw.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_draw.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

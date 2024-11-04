@@ -1,0 +1,14 @@
+[0.011s] Invoking command in '/home/farelfebryan/workspace/build/tugas3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/workspace/build/tugas3 -- -j8 -l8
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target turtle_draw[0m
+[0.063s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_draw.dir/src/turtle_draw.cpp.o[0m
+[2.502s] [01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:[m[K In member function ‘[01m[Kvoid VerticalLinear::Car()[m[K’:
+[2.502s] [01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:123:18:[m[K [01;31m[Kerror: [m[K‘[01m[K_turtle8[m[K’ was not declared in this scope
+[2.502s]   123 |         teleport([01;31m[K_turtle8[m[K.0, 5.8, 0.0);
+[2.502s]       |                  [01;31m[K^~~~~~~~[m[K
+[2.508s] [01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:123:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kteleport[m[K’ was not declared in this scope
+[2.508s]   123 |         [01;31m[Kteleport[m[K(_turtle8.0, 5.8, 0.0);
+[2.508s]       |         [01;31m[K^~~~~~~~[m[K
+[3.658s] gmake[2]: *** [CMakeFiles/turtle_draw.dir/build.make:76: CMakeFiles/turtle_draw.dir/src/turtle_draw.cpp.o] Error 1
+[3.658s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_draw.dir/all] Error 2
+[3.658s] gmake: *** [Makefile:146: all] Error 2
+[3.660s] Invoked command in '/home/farelfebryan/workspace/build/tugas3' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/workspace/build/tugas3 -- -j8 -l8

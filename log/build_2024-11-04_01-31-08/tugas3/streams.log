@@ -1,0 +1,24 @@
+[0.012s] Invoking command in '/home/farelfebryan/workspace/build/tugas3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/workspace/build/tugas3 -- -j8 -l8
+[0.059s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_draw.dir/src/turtle_draw.cpp.o[0m
+[2.492s] [01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:[m[K In member function ‘[01m[Kvoid VerticalLinear::killAndSpawnTurtle(const string&, float, float, float, const string&)[m[K’:
+[2.492s] [01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:43:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kkill_turtle[m[K’ was not declared in this scope; did you mean ‘[01m[KkillTurtle[m[K’?
+[2.492s]    43 |         [01;31m[Kkill_turtle[m[K(killName);
+[2.492s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.492s]       |         [32m[KkillTurtle[m[K
+[2.497s] [01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:44:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kspawn_turtle[m[K’ was not declared in this scope; did you mean ‘[01m[KspawnTurtle[m[K’?
+[2.497s]    44 |         [01;31m[Kspawn_turtle[m[K(x, y, theta, spawnName);
+[2.497s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[2.497s]       |         [32m[KspawnTurtle[m[K
+[2.502s] [01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:[m[K In member function ‘[01m[Kvoid VerticalLinear::Car()[m[K’:
+[2.502s] [01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:88:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kspawn_turtle[m[K’ was not declared in this scope; did you mean ‘[01m[KspawnTurtle[m[K’?
+[2.502s]    88 |             [01;31m[Kspawn_turtle[m[K(8.0, 6.0 - (i - 5) * 0.2, 0.0, "turtle" + std::to_string(i));
+[2.503s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[2.503s]       |             [32m[KspawnTurtle[m[K
+[2.507s] [01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:92:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kkill_turtle[m[K’ was not declared in this scope; did you mean ‘[01m[KkillTurtle[m[K’?
+[2.507s]    92 |             [01;31m[Kkill_turtle[m[K("turtle" + std::to_string(i));
+[2.507s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[2.508s]       |             [32m[KkillTurtle[m[K
+[3.543s] gmake[2]: *** [CMakeFiles/turtle_draw.dir/build.make:76: CMakeFiles/turtle_draw.dir/src/turtle_draw.cpp.o] Error 1
+[3.543s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_draw.dir/all] Error 2
+[3.543s] gmake: *** [Makefile:146: all] Error 2
+[3.545s] Invoked command in '/home/farelfebryan/workspace/build/tugas3' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/workspace/build/tugas3 -- -j8 -l8

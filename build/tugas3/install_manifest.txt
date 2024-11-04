@@ -1,0 +1,16 @@
+/home/farelfebryan/workspace/install/tugas3/lib/tugas3/gambar_mobil
+/home/farelfebryan/workspace/install/tugas3/share/ament_index/resource_index/package_run_dependencies/tugas3
+/home/farelfebryan/workspace/install/tugas3/share/ament_index/resource_index/parent_prefix_path/tugas3
+/home/farelfebryan/workspace/install/tugas3/share/tugas3/environment/ament_prefix_path.sh
+/home/farelfebryan/workspace/install/tugas3/share/tugas3/environment/ament_prefix_path.dsv
+/home/farelfebryan/workspace/install/tugas3/share/tugas3/environment/path.sh
+/home/farelfebryan/workspace/install/tugas3/share/tugas3/environment/path.dsv
+/home/farelfebryan/workspace/install/tugas3/share/tugas3/local_setup.bash
+/home/farelfebryan/workspace/install/tugas3/share/tugas3/local_setup.sh
+/home/farelfebryan/workspace/install/tugas3/share/tugas3/local_setup.zsh
+/home/farelfebryan/workspace/install/tugas3/share/tugas3/local_setup.dsv
+/home/farelfebryan/workspace/install/tugas3/share/tugas3/package.dsv
+/home/farelfebryan/workspace/install/tugas3/share/ament_index/resource_index/packages/tugas3
+/home/farelfebryan/workspace/install/tugas3/share/tugas3/cmake/tugas3Config.cmake
+/home/farelfebryan/workspace/install/tugas3/share/tugas3/cmake/tugas3Config-version.cmake
+/home/farelfebryan/workspace/install/tugas3/share/tugas3/package.xml

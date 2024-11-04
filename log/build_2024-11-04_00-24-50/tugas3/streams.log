@@ -1,0 +1,15 @@
+[0.011s] Invoking command in '/home/farelfebryan/workspace/build/tugas3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/workspace/build/tugas3 -- -j8 -l8
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target turtle_draw[0m
+[0.062s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_draw.dir/src/turtle_draw.cpp.o[0m
+[2.537s] [01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:62:91:[m[K [01;31m[Kerror: [m[Kdefault argument missing for parameter 5 of ‘[01m[Kvoid VerticalLinear::spawn_turtle(float, float, float, const string&, double)[m[K’
+[2.537s]    62 | le(float x, float y, float theta, const std::string &name = "", [01;31m[Kdouble durasi[m[K)
+[2.537s]       |                                                                 [01;31m[K~~~~~~~^~~~~~[m[K
+[2.537s] 
+[2.537s] [01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:62:73:[m[K [01;36m[Knote: [m[K...following parameter 4 which has a default argument
+[2.537s]    62 | oid spawn_turtle(float x, float y, float theta, [01;36m[Kconst std::string &name = ""[m[K, double durasi)
+[2.537s]       |                                                 [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[2.537s] 
+[3.713s] gmake[2]: *** [CMakeFiles/turtle_draw.dir/build.make:76: CMakeFiles/turtle_draw.dir/src/turtle_draw.cpp.o] Error 1
+[3.713s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_draw.dir/all] Error 2
+[3.713s] gmake: *** [Makefile:146: all] Error 2
+[3.715s] Invoked command in '/home/farelfebryan/workspace/build/tugas3' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/workspace/build/tugas3 -- -j8 -l8

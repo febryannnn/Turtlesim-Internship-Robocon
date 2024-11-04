@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target turtle_draw[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/turtle_draw.dir/src/turtle_draw.cpp.o[0m
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:[m[K In member function ‘[01m[Kvoid VerticalLinear::gerak(double)[m[K’:
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:32:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kdurasi[m[K’ was not declared in this scope
+   32 |         moveTurtle(1.0,0.0, [01;31m[Kdurasi[m[K);
+      |                             [01;31m[K^~~~~~[m[K
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:30:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klength[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   30 |     void gerak([01;35m[Kdouble length[m[K) {
+      |                [01;35m[K~~~~~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/turtle_draw.dir/build.make:76: CMakeFiles/turtle_draw.dir/src/turtle_draw.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_draw.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

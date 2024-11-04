@@ -1,0 +1,48 @@
+[0.010s] Invoking command in '/home/farelfebryan/workspace/build/tugas3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/workspace/build/tugas3 -- -j8 -l8
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target turtle_draw[0m
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_draw.dir/src/turtle_draw.cpp.o[0m
+[2.503s] [01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:[m[K In constructor ‘[01m[KVerticalLinear::VerticalLinear()[m[K’:
+[2.503s] [01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:17:5:[m[K [01;31m[Kerror: [m[K‘[01m[KkillTurtle[m[K’ was not declared in this scope
+[2.503s]    17 |     [01;31m[KkillTurtle[m[K = this->create_client<turtlesim::srv::Kill>("/kill");
+[2.503s]       |     [01;31m[K^~~~~~~~~~[m[K
+[2.504s] [01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:17:54:[m[K [01;31m[Kerror: [m[K‘[01m[KKill[m[K’ is not a member of ‘[01m[Kturtlesim::srv[m[K’
+[2.504s]    17 |     killTurtle = this->create_client<turtlesim::srv::[01;31m[KKill[m[K>("/kill");
+[2.504s]       |                                                      [01;31m[K^~~~[m[K
+[2.504s] [01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:17:59:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KVerticalLinear::create_client<<expression error> >(const char [6])[m[K’
+[2.504s]    17 |     killTurtle = [01;31m[Kthis->create_client<turtlesim::srv::Kill>("/kill")[m[K;
+[2.504s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[2.504s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.504s]                  from [01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:1[m[K:
+[2.504s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[2.504s]   252 |   [01;36m[Kcreate_client[m[K(
+[2.504s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[2.504s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.505s] [01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:17:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.505s]    17 |     killTurtle = [01;31m[Kthis->create_client<turtlesim::srv::Kill>("/kill")[m[K;
+[2.505s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[2.510s] [01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:18:5:[m[K [01;31m[Kerror: [m[K‘[01m[KspawnTurtle[m[K’ was not declared in this scope
+[2.510s]    18 |     [01;31m[KspawnTurtle[m[K = this->create_client<turtlesim::srv::Spawn>("/spawn");
+[2.510s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[2.511s] [01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:18:55:[m[K [01;31m[Kerror: [m[K‘[01m[KSpawn[m[K’ is not a member of ‘[01m[Kturtlesim::srv[m[K’
+[2.511s]    18 |     spawnTurtle = this->create_client<turtlesim::srv::[01;31m[KSpawn[m[K>("/spawn");
+[2.511s]       |                                                       [01;31m[K^~~~~[m[K
+[2.511s] [01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:18:61:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KVerticalLinear::create_client<<expression error> >(const char [7])[m[K’
+[2.511s]    18 |     spawnTurtle = [01;31m[Kthis->create_client<turtlesim::srv::Spawn>("/spawn")[m[K;
+[2.511s]       |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[2.511s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.511s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.511s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.511s]                  from [01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:1[m[K:
+[2.511s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[2.511s]   252 |   [01;36m[Kcreate_client[m[K(
+[2.511s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[2.511s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.511s] [01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:18:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.511s]    18 |     spawnTurtle = [01;31m[Kthis->create_client<turtlesim::srv::Spawn>("/spawn")[m[K;
+[2.511s]       |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[3.609s] gmake[2]: *** [CMakeFiles/turtle_draw.dir/build.make:76: CMakeFiles/turtle_draw.dir/src/turtle_draw.cpp.o] Error 1
+[3.609s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_draw.dir/all] Error 2
+[3.610s] gmake: *** [Makefile:146: all] Error 2
+[3.612s] Invoked command in '/home/farelfebryan/workspace/build/tugas3' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/workspace/build/tugas3 -- -j8 -l8

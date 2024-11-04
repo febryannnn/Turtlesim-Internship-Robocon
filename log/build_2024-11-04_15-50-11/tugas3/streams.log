@@ -1,0 +1,26 @@
+[0.010s] Invoking command in '/home/farelfebryan/workspace/build/tugas3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/workspace/build/tugas3 -- -j8 -l8
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target gambar_mobil[0m
+[0.063s] [ 50%] [32mBuilding CXX object CMakeFiles/gambar_mobil.dir/src/gambarMobil.cpp.o[0m
+[5.773s] [100%] [32m[1mLinking CXX executable gambar_mobil[0m
+[6.017s] [100%] Built target gambar_mobil
+[6.026s] Invoked command in '/home/farelfebryan/workspace/build/tugas3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/farelfebryan/workspace/build/tugas3 -- -j8 -l8
+[6.055s] Invoking command in '/home/farelfebryan/workspace/build/tugas3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farelfebryan/workspace/build/tugas3
+[6.062s] -- Install configuration: ""
+[6.063s] -- Installing: /home/farelfebryan/workspace/install/tugas3/lib/tugas3/gambar_mobil
+[6.065s] -- Set runtime path of "/home/farelfebryan/workspace/install/tugas3/lib/tugas3/gambar_mobil" to ""
+[6.065s] -- Up-to-date: /home/farelfebryan/workspace/install/tugas3/share/ament_index/resource_index/package_run_dependencies/tugas3
+[6.065s] -- Up-to-date: /home/farelfebryan/workspace/install/tugas3/share/ament_index/resource_index/parent_prefix_path/tugas3
+[6.065s] -- Up-to-date: /home/farelfebryan/workspace/install/tugas3/share/tugas3/environment/ament_prefix_path.sh
+[6.065s] -- Up-to-date: /home/farelfebryan/workspace/install/tugas3/share/tugas3/environment/ament_prefix_path.dsv
+[6.065s] -- Up-to-date: /home/farelfebryan/workspace/install/tugas3/share/tugas3/environment/path.sh
+[6.066s] -- Up-to-date: /home/farelfebryan/workspace/install/tugas3/share/tugas3/environment/path.dsv
+[6.066s] -- Up-to-date: /home/farelfebryan/workspace/install/tugas3/share/tugas3/local_setup.bash
+[6.066s] -- Up-to-date: /home/farelfebryan/workspace/install/tugas3/share/tugas3/local_setup.sh
+[6.066s] -- Up-to-date: /home/farelfebryan/workspace/install/tugas3/share/tugas3/local_setup.zsh
+[6.066s] -- Up-to-date: /home/farelfebryan/workspace/install/tugas3/share/tugas3/local_setup.dsv
+[6.066s] -- Installing: /home/farelfebryan/workspace/install/tugas3/share/tugas3/package.dsv
+[6.066s] -- Up-to-date: /home/farelfebryan/workspace/install/tugas3/share/ament_index/resource_index/packages/tugas3
+[6.066s] -- Up-to-date: /home/farelfebryan/workspace/install/tugas3/share/tugas3/cmake/tugas3Config.cmake
+[6.066s] -- Up-to-date: /home/farelfebryan/workspace/install/tugas3/share/tugas3/cmake/tugas3Config-version.cmake
+[6.066s] -- Up-to-date: /home/farelfebryan/workspace/install/tugas3/share/tugas3/package.xml
+[6.068s] Invoked command in '/home/farelfebryan/workspace/build/tugas3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/farelfebryan/workspace/build/tugas3

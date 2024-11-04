@@ -1,0 +1,81 @@
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:131:36:[m[K [01;31m[Kerror: [m[K‘[01m[KSetPen[m[K’ is not a member of ‘[01m[Kturtlesim::srv[m[K’
+  131 |     rclcpp::Client<turtlesim::srv::[01;31m[KSetPen[m[K>::SharedPtr setPen;
+      |                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:131:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  131 |     rclcpp::Client<turtlesim::srv::SetPen[01;31m[K>[m[K::SharedPtr setPen;
+      |                                          [01;31m[K^[m[K
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:131:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  131 |     rclcpp::Client<turtlesim::srv::SetPen>::[01;31m[KSharedPtr[m[K setPen;
+      |                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                      [32m[K;[m[K
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:131:55:[m[K [01;31m[Kerror: [m[K‘[01m[KsetPen[m[K’ does not name a type
+  131 |     rclcpp::Client<turtlesim::srv::SetPen>::SharedPtr [01;31m[KsetPen[m[K;
+      |                                                       [01;31m[K^~~~~~[m[K
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:[m[K In constructor ‘[01m[KVerticalLinear::VerticalLinear()[m[K’:
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:16:5:[m[K [01;31m[Kerror: [m[K‘[01m[KkillTurtle[m[K’ was not declared in this scope
+   16 |     [01;31m[KkillTurtle[m[K = this->create_client<turtlesim::srv::Kill>("/kill");
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:16:54:[m[K [01;31m[Kerror: [m[K‘[01m[KKill[m[K’ is not a member of ‘[01m[Kturtlesim::srv[m[K’
+   16 |     killTurtle = this->create_client<turtlesim::srv::[01;31m[KKill[m[K>("/kill");
+      |                                                      [01;31m[K^~~~[m[K
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:16:59:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KVerticalLinear::create_client<<expression error> >(const char [6])[m[K’
+   16 |     killTurtle = [01;31m[Kthis->create_client<turtlesim::srv::Kill>("/kill")[m[K;
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  252 |   [01;36m[Kcreate_client[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:16:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   16 |     killTurtle = [01;31m[Kthis->create_client<turtlesim::srv::Kill>("/kill")[m[K;
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:17:5:[m[K [01;31m[Kerror: [m[K‘[01m[KspawnTurtle[m[K’ was not declared in this scope
+   17 |     [01;31m[KspawnTurtle[m[K = this->create_client<turtlesim::srv::Spawn>("/spawn");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:17:55:[m[K [01;31m[Kerror: [m[K‘[01m[KSpawn[m[K’ is not a member of ‘[01m[Kturtlesim::srv[m[K’
+   17 |     spawnTurtle = this->create_client<turtlesim::srv::[01;31m[KSpawn[m[K>("/spawn");
+      |                                                       [01;31m[K^~~~~[m[K
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:17:61:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KVerticalLinear::create_client<<expression error> >(const char [7])[m[K’
+   17 |     spawnTurtle = [01;31m[Kthis->create_client<turtlesim::srv::Spawn>("/spawn")[m[K;
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  252 |   [01;36m[Kcreate_client[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:17:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   17 |     spawnTurtle = [01;31m[Kthis->create_client<turtlesim::srv::Spawn>("/spawn")[m[K;
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:[m[K In member function ‘[01m[Kvoid VerticalLinear::setpen(int, int, int, int, bool)[m[K’:
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:66:57:[m[K [01;31m[Kerror: [m[K‘[01m[KSetPen[m[K’ is not a member of ‘[01m[Kturtlesim::srv[m[K’
+   66 |         auto request = std::make_shared<turtlesim::srv::[01;31m[KSetPen[m[K::Request>();
+      |                                                         [01;31m[K^~~~~~[m[K
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:66:29:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   66 |         auto request = std::[01;31m[Kmake_shared<turtlesim::srv::SetPen::Request>[m[K();
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:66:73:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   66 |         auto request = [01;31m[Kstd::make_shared<turtlesim::srv::SetPen::Request>()[m[K;
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:66:73:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   66 |         auto request = [01;31m[Kstd::make_shared<turtlesim::srv::SetPen::Request>()[m[K;
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/farelfebryan/workspace/src/tugas3/src/turtle_draw.cpp:73:23:[m[K [01;31m[Kerror: [m[K‘[01m[KsetPen[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetpen[m[K’?
+   73 |         auto future = [01;31m[KsetPen[m[K-> async_send_request(request);
+      |                       [01;31m[K^~~~~~[m[K
+      |                       [32m[Ksetpen[m[K
+gmake[2]: *** [CMakeFiles/turtle_draw.dir/build.make:76: CMakeFiles/turtle_draw.dir/src/turtle_draw.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_draw.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
